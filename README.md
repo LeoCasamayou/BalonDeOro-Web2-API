@@ -13,6 +13,11 @@ Proyecto basado en el Balón de Oro 2025 que permite gestionar jugadores, equipo
 ## Parte 3 – API REST
 API implementada sobre "menciones honoríficas". La carpeta "api" se encuentra en "app".
 
+Archivos utilizados: 
+1. app/api/mencion.api.controller.php
+2. app/api/api.router.php
+3. app/models/mencion.model.php
+
 Rutas Principales:
 1. GET /api/menciones
 2. GET /api/menciones/{id}
@@ -30,7 +35,7 @@ Opcionales Implementados:
 1. Clonar repositorio en carpeta "htdocs" de XAMPP.
 2. Importar la base desde balon_de_oro.sql o dejar que se autogenere.
 3. Iniciar Apache y MySQL.
-4. Acceder a http://localhost/BalonDeOro-Web2/
+4. Acceder a http://localhost/BalonDeOro-Web2-API/
 
 ## Acceso administrador
 Usuario: webadmin  
