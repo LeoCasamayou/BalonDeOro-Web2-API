@@ -11,7 +11,7 @@ Proyecto basado en el Balón de Oro 2025 que permite gestionar jugadores, equipo
 • Se implementó password_hash + password_verify (no hardcodeado).
 
 ## Parte 3 – API REST
-API implementada sobre "menciones honoríficas".
+API implementada sobre "menciones honoríficas". La carpeta "api" se encuentra en "app".
 
 Rutas Principales:
 • GET /api/menciones
